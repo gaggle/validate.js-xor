@@ -1,0 +1,23 @@
+{
+  "name": "validate.js-xor",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jon Lauridsen",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover --dir ./.coverage _mocha -x **/lib/** --include-all-sources -- -R spec"
+  },
+  "dependencies": {
+    "lodash": "^4.3.0"
+  },
+  "peerDependencies": {
+    "validate.js": "~0.9.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "must": "^0.13.1",
+    "validate.js": "^0.9.0"
+  }
+}
