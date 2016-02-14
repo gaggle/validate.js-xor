@@ -1,6 +1,7 @@
 # validate.js-xor
 [![Build Status](https://travis-ci.org/gaggle/validate.js-xor.svg?branch=master)](https://travis-ci.org/gaggle/validate.js-xor)
 [![Coverage Status](https://coveralls.io/repos/github/gaggle/validate.js-xor/badge.svg?branch=master)](https://coveralls.io/github/gaggle/validate.js-xor?branch=master)
+[![Dependency Status](https://david-dm.org/gaggle/validate.js-xor.svg)](https://david-dm.org/gaggle/validate.js-xor)
 
 `Exclusive or` validation plugin for [validate.js](http://validatejs.org).
 
