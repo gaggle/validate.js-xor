@@ -1,15 +1,15 @@
 "use strict";
 var expect = require("must")
 var validate = require("validate.js")
-var index = require("../index")
+var validateXor = require("../")
 
-index.register(validate)
+validateXor.register(validate)
 
-describe("index.js", function () {
+describe("validate.js-xor.js", function () {
   describe("#register", function () {
     it("should register itself", function () {
       var module = {validators: {}}
-      index.register(module)
+      validateXor.register(module)
       expect(module.validators.xor).to.be.a.function()
     })
   })
