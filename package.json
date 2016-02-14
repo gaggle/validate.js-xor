@@ -1,6 +1,5 @@
 {
   "name": "validate.js-xor",
-  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jon Lauridsen",
